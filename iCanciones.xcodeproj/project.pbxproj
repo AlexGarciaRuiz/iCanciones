@@ -13,13 +13,13 @@
 		C68D186A1DA3329D001BBBBE /* iCancionesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18691DA3329D001BBBBE /* iCancionesTests.swift */; };
 		C68D18751DA3329D001BBBBE /* iCancionesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18741DA3329D001BBBBE /* iCancionesUITests.swift */; };
 		C68D18831DA332E3001BBBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68D18821DA332E3001BBBBE /* Main.storyboard */; };
-		C68D188A1DA332F3001BBBBE /* cantaCorazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18841DA332F3001BBBBE /* cantaCorazon.mp3 */; };
-		C68D188B1DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18851DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 */; };
-		C68D188C1DA332F3001BBBBE /* cuidadoConElCorazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18861DA332F3001BBBBE /* cuidadoConElCorazon.mp3 */; };
-		C68D188D1DA332F3001BBBBE /* mandaUnaSenal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18871DA332F3001BBBBE /* mandaUnaSenal.mp3 */; };
-		C68D188E1DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18881DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 */; };
-		C68D188F1DA332F3001BBBBE /* volverteAmar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18891DA332F3001BBBBE /* volverteAmar.mp3 */; };
 		C68D18911DA33311001BBBBE /* CancionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18901DA33311001BBBBE /* CancionesViewController.swift */; };
+		C68D18981DA3E614001BBBBE /* cantaCorazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18921DA3E614001BBBBE /* cantaCorazon.mp3 */; };
+		C68D18991DA3E614001BBBBE /* cuandoEstamosJuntos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18931DA3E614001BBBBE /* cuandoEstamosJuntos.mp3 */; };
+		C68D189A1DA3E614001BBBBE /* cuidadoConElCorazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18941DA3E614001BBBBE /* cuidadoConElCorazon.mp3 */; };
+		C68D189B1DA3E614001BBBBE /* mandaUnaSenal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18951DA3E614001BBBBE /* mandaUnaSenal.mp3 */; };
+		C68D189C1DA3E614001BBBBE /* ojalaPudieraBorrarte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18961DA3E614001BBBBE /* ojalaPudieraBorrarte.mp3 */; };
+		C68D189D1DA3E614001BBBBE /* volverteAmar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18971DA3E614001BBBBE /* volverteAmar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +52,13 @@
 		C68D18741DA3329D001BBBBE /* iCancionesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCancionesUITests.swift; sourceTree = "<group>"; };
 		C68D18761DA3329D001BBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C68D18821DA332E3001BBBBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C68D18841DA332F3001BBBBE /* cantaCorazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cantaCorazon.mp3; sourceTree = "<group>"; };
-		C68D18851DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuandoEstamosJuntos.mp3; sourceTree = "<group>"; };
-		C68D18861DA332F3001BBBBE /* cuidadoConElCorazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuidadoConElCorazon.mp3; sourceTree = "<group>"; };
-		C68D18871DA332F3001BBBBE /* mandaUnaSenal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mandaUnaSenal.mp3; sourceTree = "<group>"; };
-		C68D18881DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ojalaPudieraBorrarte.mp3; sourceTree = "<group>"; };
-		C68D18891DA332F3001BBBBE /* volverteAmar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = volverteAmar.mp3; sourceTree = "<group>"; };
 		C68D18901DA33311001BBBBE /* CancionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesViewController.swift; sourceTree = "<group>"; };
+		C68D18921DA3E614001BBBBE /* cantaCorazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cantaCorazon.mp3; sourceTree = "<group>"; };
+		C68D18931DA3E614001BBBBE /* cuandoEstamosJuntos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuandoEstamosJuntos.mp3; sourceTree = "<group>"; };
+		C68D18941DA3E614001BBBBE /* cuidadoConElCorazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuidadoConElCorazon.mp3; sourceTree = "<group>"; };
+		C68D18951DA3E614001BBBBE /* mandaUnaSenal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mandaUnaSenal.mp3; sourceTree = "<group>"; };
+		C68D18961DA3E614001BBBBE /* ojalaPudieraBorrarte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ojalaPudieraBorrarte.mp3; sourceTree = "<group>"; };
+		C68D18971DA3E614001BBBBE /* volverteAmar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = volverteAmar.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +109,13 @@
 		C68D18531DA3329D001BBBBE /* iCanciones */ = {
 			isa = PBXGroup;
 			children = (
+				C68D18921DA3E614001BBBBE /* cantaCorazon.mp3 */,
+				C68D18931DA3E614001BBBBE /* cuandoEstamosJuntos.mp3 */,
+				C68D18941DA3E614001BBBBE /* cuidadoConElCorazon.mp3 */,
+				C68D18951DA3E614001BBBBE /* mandaUnaSenal.mp3 */,
+				C68D18961DA3E614001BBBBE /* ojalaPudieraBorrarte.mp3 */,
+				C68D18971DA3E614001BBBBE /* volverteAmar.mp3 */,
 				C68D18901DA33311001BBBBE /* CancionesViewController.swift */,
-				C68D18841DA332F3001BBBBE /* cantaCorazon.mp3 */,
-				C68D18851DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 */,
-				C68D18861DA332F3001BBBBE /* cuidadoConElCorazon.mp3 */,
-				C68D18871DA332F3001BBBBE /* mandaUnaSenal.mp3 */,
-				C68D18881DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 */,
-				C68D18891DA332F3001BBBBE /* volverteAmar.mp3 */,
 				C68D18821DA332E3001BBBBE /* Main.storyboard */,
 				C68D18541DA3329D001BBBBE /* AppDelegate.swift */,
 				C68D185B1DA3329D001BBBBE /* Assets.xcassets */,
@@ -250,15 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68D188E1DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 in Resources */,
-				C68D188D1DA332F3001BBBBE /* mandaUnaSenal.mp3 in Resources */,
+				C68D189C1DA3E614001BBBBE /* ojalaPudieraBorrarte.mp3 in Resources */,
+				C68D189B1DA3E614001BBBBE /* mandaUnaSenal.mp3 in Resources */,
 				C68D18831DA332E3001BBBBE /* Main.storyboard in Resources */,
-				C68D188B1DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 in Resources */,
-				C68D188A1DA332F3001BBBBE /* cantaCorazon.mp3 in Resources */,
+				C68D18991DA3E614001BBBBE /* cuandoEstamosJuntos.mp3 in Resources */,
+				C68D18981DA3E614001BBBBE /* cantaCorazon.mp3 in Resources */,
 				C68D185F1DA3329D001BBBBE /* LaunchScreen.storyboard in Resources */,
-				C68D188F1DA332F3001BBBBE /* volverteAmar.mp3 in Resources */,
+				C68D189D1DA3E614001BBBBE /* volverteAmar.mp3 in Resources */,
 				C68D185C1DA3329D001BBBBE /* Assets.xcassets in Resources */,
-				C68D188C1DA332F3001BBBBE /* cuidadoConElCorazon.mp3 in Resources */,
+				C68D189A1DA3E614001BBBBE /* cuidadoConElCorazon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
