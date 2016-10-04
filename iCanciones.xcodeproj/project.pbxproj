@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C68D18551DA3329D001BBBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18541DA3329D001BBBBE /* AppDelegate.swift */; };
-		C68D18571DA3329D001BBBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18561DA3329D001BBBBE /* ViewController.swift */; };
-		C68D185A1DA3329D001BBBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68D18581DA3329D001BBBBE /* Main.storyboard */; };
 		C68D185C1DA3329D001BBBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68D185B1DA3329D001BBBBE /* Assets.xcassets */; };
 		C68D185F1DA3329D001BBBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68D185D1DA3329D001BBBBE /* LaunchScreen.storyboard */; };
 		C68D186A1DA3329D001BBBBE /* iCancionesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18691DA3329D001BBBBE /* iCancionesTests.swift */; };
 		C68D18751DA3329D001BBBBE /* iCancionesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18741DA3329D001BBBBE /* iCancionesUITests.swift */; };
+		C68D18831DA332E3001BBBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68D18821DA332E3001BBBBE /* Main.storyboard */; };
+		C68D188A1DA332F3001BBBBE /* cantaCorazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18841DA332F3001BBBBE /* cantaCorazon.mp3 */; };
+		C68D188B1DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18851DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 */; };
+		C68D188C1DA332F3001BBBBE /* cuidadoConElCorazon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18861DA332F3001BBBBE /* cuidadoConElCorazon.mp3 */; };
+		C68D188D1DA332F3001BBBBE /* mandaUnaSenal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18871DA332F3001BBBBE /* mandaUnaSenal.mp3 */; };
+		C68D188E1DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18881DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 */; };
+		C68D188F1DA332F3001BBBBE /* volverteAmar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C68D18891DA332F3001BBBBE /* volverteAmar.mp3 */; };
+		C68D18911DA33311001BBBBE /* CancionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D18901DA33311001BBBBE /* CancionesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +42,6 @@
 /* Begin PBXFileReference section */
 		C68D18511DA3329D001BBBBE /* iCanciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCanciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68D18541DA3329D001BBBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C68D18561DA3329D001BBBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C68D18591DA3329D001BBBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C68D185B1DA3329D001BBBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68D185E1DA3329D001BBBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C68D18601DA3329D001BBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		C68D18701DA3329D001BBBBE /* iCancionesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCancionesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68D18741DA3329D001BBBBE /* iCancionesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCancionesUITests.swift; sourceTree = "<group>"; };
 		C68D18761DA3329D001BBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68D18821DA332E3001BBBBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C68D18841DA332F3001BBBBE /* cantaCorazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cantaCorazon.mp3; sourceTree = "<group>"; };
+		C68D18851DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuandoEstamosJuntos.mp3; sourceTree = "<group>"; };
+		C68D18861DA332F3001BBBBE /* cuidadoConElCorazon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuidadoConElCorazon.mp3; sourceTree = "<group>"; };
+		C68D18871DA332F3001BBBBE /* mandaUnaSenal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mandaUnaSenal.mp3; sourceTree = "<group>"; };
+		C68D18881DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ojalaPudieraBorrarte.mp3; sourceTree = "<group>"; };
+		C68D18891DA332F3001BBBBE /* volverteAmar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = volverteAmar.mp3; sourceTree = "<group>"; };
+		C68D18901DA33311001BBBBE /* CancionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		C68D18531DA3329D001BBBBE /* iCanciones */ = {
 			isa = PBXGroup;
 			children = (
+				C68D18901DA33311001BBBBE /* CancionesViewController.swift */,
+				C68D18841DA332F3001BBBBE /* cantaCorazon.mp3 */,
+				C68D18851DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 */,
+				C68D18861DA332F3001BBBBE /* cuidadoConElCorazon.mp3 */,
+				C68D18871DA332F3001BBBBE /* mandaUnaSenal.mp3 */,
+				C68D18881DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 */,
+				C68D18891DA332F3001BBBBE /* volverteAmar.mp3 */,
+				C68D18821DA332E3001BBBBE /* Main.storyboard */,
 				C68D18541DA3329D001BBBBE /* AppDelegate.swift */,
-				C68D18561DA3329D001BBBBE /* ViewController.swift */,
-				C68D18581DA3329D001BBBBE /* Main.storyboard */,
 				C68D185B1DA3329D001BBBBE /* Assets.xcassets */,
 				C68D185D1DA3329D001BBBBE /* LaunchScreen.storyboard */,
 				C68D18601DA3329D001BBBBE /* Info.plist */,
@@ -232,9 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68D188E1DA332F3001BBBBE /* ojalaPudieraBorrarte.mp3 in Resources */,
+				C68D188D1DA332F3001BBBBE /* mandaUnaSenal.mp3 in Resources */,
+				C68D18831DA332E3001BBBBE /* Main.storyboard in Resources */,
+				C68D188B1DA332F3001BBBBE /* cuandoEstamosJuntos.mp3 in Resources */,
+				C68D188A1DA332F3001BBBBE /* cantaCorazon.mp3 in Resources */,
 				C68D185F1DA3329D001BBBBE /* LaunchScreen.storyboard in Resources */,
+				C68D188F1DA332F3001BBBBE /* volverteAmar.mp3 in Resources */,
 				C68D185C1DA3329D001BBBBE /* Assets.xcassets in Resources */,
-				C68D185A1DA3329D001BBBBE /* Main.storyboard in Resources */,
+				C68D188C1DA332F3001BBBBE /* cuidadoConElCorazon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68D18571DA3329D001BBBBE /* ViewController.swift in Sources */,
+				C68D18911DA33311001BBBBE /* CancionesViewController.swift in Sources */,
 				C68D18551DA3329D001BBBBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C68D18581DA3329D001BBBBE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C68D18591DA3329D001BBBBE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C68D185D1DA3329D001BBBBE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
