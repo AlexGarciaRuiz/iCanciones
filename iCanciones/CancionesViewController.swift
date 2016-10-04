@@ -45,6 +45,7 @@ class CancionesViewController: UIViewController, UIPickerViewDelegate, UIPickerV
             UIImage(named: "ojalaPudieraBorrarte")!,
             UIImage(named: "volverteAmar")!
         ]
+        arc4random_stir()
     }
     
     // MARK: Picker data source
@@ -122,6 +123,25 @@ class CancionesViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         reproductor.volume = sender.value
     }
     
+    @IBAction func shuffle() {
+        if reproductor != nil, reproductor.isPlaying {
+            reproductor.stop()
+            reproductor.currentTime = 0.0
+        }
+        let row = Int(arc4random_uniform(UInt32(canciones.count)))
+        pickerCanciones.selectRow(row, inComponent: 0, animated: true)
+        cancionURL = Bundle.main.url(forResource: cancionesFile[row], withExtension: "mp3")
+        do {
+            try reproductor = AVAudioPlayer(contentsOf: cancionURL!)
+            reproductor.volume = volumen.value
+            cancionPortada.image = images[row]
+            reproductor.play()
+        }
+        catch {
+            print("Error al cargar el archivo de sonido")
+        }
+ 
+    }
     /*
     // MARK: - Navigation
 

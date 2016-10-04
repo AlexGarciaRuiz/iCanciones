@@ -37,7 +37,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOj-gs-RPD">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="85" id="BoW-MM-d7D"/>
+                                    <constraint firstAttribute="width" constant="60" id="BoW-MM-d7D"/>
                                 </constraints>
                                 <state key="normal" title="Play"/>
                                 <connections>
@@ -46,20 +46,11 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twi-Mf-rmg">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="85" id="VtS-Te-VsV"/>
+                                    <constraint firstAttribute="width" constant="60" id="VtS-Te-VsV"/>
                                 </constraints>
                                 <state key="normal" title="Pause"/>
                                 <connections>
                                     <action selector="pause" destination="RJR-EM-9PP" eventType="touchUpInside" id="3fy-ja-0y7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tZ-Iw-mpK">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="85" id="hAO-PE-UQI"/>
-                                </constraints>
-                                <state key="normal" title="Stop"/>
-                                <connections>
-                                    <action selector="stop" destination="RJR-EM-9PP" eventType="touchUpInside" id="Miw-Ts-Ntb"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noCancion" translatesAutoresizingMaskIntoConstraints="NO" id="4cI-2r-3mZ">
@@ -73,26 +64,46 @@
                                     <action selector="volumenChange:" destination="RJR-EM-9PP" eventType="valueChanged" id="J5v-cL-xFV"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsQ-KK-0wr">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="p09-pw-77D"/>
+                                </constraints>
+                                <state key="normal" title="Shuffle"/>
+                                <connections>
+                                    <action selector="shuffle" destination="RJR-EM-9PP" eventType="touchUpInside" id="rcH-pZ-6ZZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tZ-Iw-mpK">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="hAO-PE-UQI"/>
+                                </constraints>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stop" destination="RJR-EM-9PP" eventType="touchUpInside" id="Miw-Ts-Ntb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="twi-Mf-rmg" firstAttribute="centerX" secondItem="pHk-EK-gA2" secondAttribute="centerX" id="1Wa-im-JhM"/>
                             <constraint firstItem="ZmU-dc-o0Y" firstAttribute="top" secondItem="vOj-gs-RPD" secondAttribute="bottom" constant="5" id="2rv-o2-Lsm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0tZ-Iw-mpK" secondAttribute="trailing" constant="12" id="58i-G0-ctj"/>
                             <constraint firstItem="vMC-D3-qiy" firstAttribute="centerX" secondItem="pHk-EK-gA2" secondAttribute="centerX" id="5uH-Pc-JjY"/>
                             <constraint firstItem="vMC-D3-qiy" firstAttribute="top" secondItem="icT-VP-gXq" secondAttribute="bottom" constant="5" id="7gS-zr-Iws"/>
                             <constraint firstItem="0tZ-Iw-mpK" firstAttribute="top" secondItem="vMC-D3-qiy" secondAttribute="bottom" constant="5" id="8fV-1A-Nsk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Avc-W2-zLL" secondAttribute="trailing" constant="11" id="Dcl-Ea-JHy"/>
                             <constraint firstItem="4cI-2r-3mZ" firstAttribute="centerX" secondItem="pHk-EK-gA2" secondAttribute="centerX" id="Ep8-PU-7jH"/>
                             <constraint firstItem="ZmU-dc-o0Y" firstAttribute="leading" secondItem="pHk-EK-gA2" secondAttribute="leadingMargin" constant="12" id="KFi-hX-vfp"/>
+                            <constraint firstItem="WsQ-KK-0wr" firstAttribute="top" secondItem="vMC-D3-qiy" secondAttribute="bottom" constant="5" id="X3W-qc-ZuZ"/>
                             <constraint firstItem="Avc-W2-zLL" firstAttribute="top" secondItem="vMC-D3-qiy" secondAttribute="bottom" constant="75" id="c5B-Le-tSh"/>
                             <constraint firstItem="4cI-2r-3mZ" firstAttribute="top" secondItem="Avc-W2-zLL" secondAttribute="bottom" constant="5" id="e22-jI-kac"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WsQ-KK-0wr" secondAttribute="trailing" constant="11" id="iHy-b8-8J3"/>
+                            <constraint firstItem="twi-Mf-rmg" firstAttribute="leading" secondItem="vOj-gs-RPD" secondAttribute="trailing" constant="25" id="oSU-d0-B9I"/>
                             <constraint firstItem="ZmU-dc-o0Y" firstAttribute="top" secondItem="vMC-D3-qiy" secondAttribute="bottom" constant="40" id="qRW-MH-kDQ"/>
                             <constraint firstItem="Avc-W2-zLL" firstAttribute="leading" secondItem="pHk-EK-gA2" secondAttribute="leadingMargin" constant="12" id="rA7-0U-gYr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZmU-dc-o0Y" secondAttribute="trailing" constant="12" id="rQk-K9-9qI"/>
                             <constraint firstItem="vOj-gs-RPD" firstAttribute="leading" secondItem="pHk-EK-gA2" secondAttribute="leadingMargin" constant="12" id="rXB-x0-N9V"/>
                             <constraint firstItem="twi-Mf-rmg" firstAttribute="top" secondItem="vMC-D3-qiy" secondAttribute="bottom" constant="5" id="vPG-il-bow"/>
                             <constraint firstItem="vOj-gs-RPD" firstAttribute="top" secondItem="vMC-D3-qiy" secondAttribute="bottom" constant="5" id="xNv-gn-1Ok"/>
+                            <constraint firstItem="WsQ-KK-0wr" firstAttribute="leading" secondItem="0tZ-Iw-mpK" secondAttribute="trailing" constant="25" id="ylr-Gd-WnN"/>
                         </constraints>
                     </view>
                     <connections>
